@@ -39,7 +39,7 @@ nav a:visited { text-color: purple; }
 .content img { width: 100px;
     height: 100px;
     float: left; 
-	right-margin: 20px;
+	margin-right: 20px;
 	border-radius: 8px; }
 	
 .content p { text-align: center; }
