@@ -1,0 +1,19 @@
+/* General Styles */
+/* David Shatto */
+/* Ch9 */
+/* Due July 13 2025 */
+
+table { margin: auto; border: 2px solid #222; width: 80%; }
+
+ 
+th, td { border: 2px solid #222 ;
+		cell-padding: .5em ;
+		text-align: center;	}
+		
+.movie-title { text-align: left;}
+
+tr:nth-child(odd) {  background-color: #f4e1d2}
+
+tr:nth-child(even) {  background-color: #c5dff8}
+	
+
