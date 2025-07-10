@@ -1,0 +1,33 @@
+/* General Styles */
+/* David Shatto */
+/* Ch10 */
+/* Due July 13 2025 */
+
+h3, p { text-align: center; }
+
+ 
+form { display: flex ;
+		flex-direction: column ;
+		flex-wrap: nowrap;	
+		margin-top: 0px;
+		margin-bottom: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 1em ; }
+		
+input, select, textarea { margin-bottom: .5em ;}
+
+ @media (max-width: 768px) {
+	form { display: grid ;
+		width: 60% ;
+		max-width: 30em;	
+		gap: 1em;
+		margin-bottom: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		grid-template-columns: 6em 1fr; }
+	form > input[type="submit"] { grid-column: 2 ;
+		width: 10em ; }
+ }
+	
+
