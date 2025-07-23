@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!David Shatto>
+<!Final>
+<!Due July 25 2025>
+<html lang="en">
+
+<head>
+<title>The Moons of Saturn - Home</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<header>
+<h1>Saturn</h1>
+</header>
+
+<body>
+<div class="wrapper">
+    
+<nav>
+<a href="home.html">Home</a> | <a href="enceladus.html">Enceladus</a> | 
+<a href="titan.html">Titan</a> | <a href="iapetus.html">Iapetus</a>
+</nav>
+    
+<main>
+
+<h2>Discover the Moons of Saturn!</h2>
+
+<p>Saturn, the 6th planet from the sun, is probably most famous for its <span class="web"><a href="#rings">rings</a></span>.</p>
+<img src="images/Saturn.png" alt="Drawn Saturn" class="planet-image">
+<br>
+
+<p> Saturn has an orbital period of nearly 30 years, meaning it will orbit the Sun once every 29.5 years. 
+It is nearly 95 times the mass of Earth and is a gas giant of mostly hydrogen and helium. It has an average distance
+of approximiately 9 astronomical units (1 AU is the average distance between the Earth and the Sun). Despite Saturn
+having 95 times the mass of the Earth, it's gravity is only slightly more than Earth's. </p>
+<br>
+<p id="rings"> As meantioned earlier, Saturn's Rings are probably the most known feature of the gas giant. The rings are the
+largest in the solar system and are primarily made of ice and rock. The rings are divided into the following 
+groups (ordered from inside to outside):</p>
+<div class= "list">
+<ol>
+
+<li>D-Ring </li>
+<li>C-Ring</li>
+<li>B-Ring</li>
+<li>A-Ring</li>
+<li>F-Ring</li>
+<li>G-Ring</li>
+<li>E-Ring</li>
+<li>Phoebe Ring</li>
+
+</ol>
+
+</div>
+
+<br>
+
+<p>Saturn has been "visited" by probes multiple times between 1979 and 2017. This first of which was by 
+the Pioneer 11. Most recently, it was visited by the Cassini. During Cassini's mission, it spent 13 years
+orbiting the ringed planet and it ended it's orbit by plunging itself
+directly into Saturn's atmosphere! How Exciting!</p>
+
+<br>
+
+<h3>Saturn also has some of the most interesting <span class="web">moons</span> in our Solar System:</h3>
+
+<div class= "list">
+
+<ul>
+
+<li><a href="enceladus.html">Enceladus</a>, the ice moon</li>
+<li><a href="titan.html">Titan</a>, the atmospheric moon</li>
+<li><a href="iapetus.html">Iapetus</a> art and history museums</li>
+
+</ul>
+
+</div>
+
+<br>
+<p>Please complete the form below to request additional information or to contact us and we&apos;ll get back to you!</p>
+<br>
+<form method="post" action="https://webdevbasics.net/scripts/demo.php">
+    <label for="name"> Name:</label>
+	<input type="text" name="name" id="name" required >
+	<label for="email">Email:</label>
+	<input type="text" name="phone" id="phone" >
+	<label for="purpose">Purpose:</label>
+	<select name="purpose" id="purpose">
+		<option value="general">General Inquiry</option>
+		<option value="info">Request Additional Information</option>
+		<option value="feedback">Feedback</option>
+	</select>
+	<br>
+	<br>
+	<input type="radio" name="res" id="Response" value="CH"> Requires Response
+	<input type="radio" name="res" id="NoResponse" value="FF"> No Response Required
+	<br>
+	<br>
+	Which moons of Saturn do you like?:
+	<br>
+	<input type="checkbox" name="Enceladus" id="Enceladus"
+       value="yes"> Enceladus
+	<input type="checkbox" name="Titan" id="Titan"
+       value="yes"> Titan
+	<input type="checkbox" name="Iapetus" id="Iapetus"
+       value="yes"> Iapetus
+	<br>
+	<br>
+	<label for="myDate">Guess the Date the Pioneer 11 first reached Saturn:</label>
+	<input type="date" name="myDate" id="myDate">
+	<br>
+	<br>
+	<label for="message">Message:</label>
+	<textarea name="message" id="message" rows="1"></textarea>
+	<input type="submit" value="Send Message"> <input type="reset" value="Reset">
+</form>
+
+</main>
+
+<footer>
+All art by David Shatto <br>
+All information found through <a href="https://science.nasa.gov/saturn/">NASA's Saturn page</a> and it's cascading links.
+</footer>
+
+</div>
+
+</body>
+
+</html>

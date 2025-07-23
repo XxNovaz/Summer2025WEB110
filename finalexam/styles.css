@@ -1,0 +1,94 @@
+/* General Styles */
+/* David Shatto */
+/* Final */
+/* Due July 25 2025 */
+
+
+body { font-family: Arial, sans-serif;
+		text-align: center;
+		text-color: white; 
+		background: url('images/bg.png') repeat center center fixed;
+		padding: 10% }
+		
+main { font-family: Arial, sans-serif;
+		text-align: center;
+		color: white; 
+		background: black}
+header { font-family: Arial, sans-serif;
+		text-align: center;
+		font-size: 2em;
+		color: white; 
+		 }
+		 
+.planet-image { max-width: 75%;}
+
+a { color: hotpink;
+		 }
+
+/* I needed to format the lists so the text would start on the same spot even though the lines would
+be different lengths. This is how I did it. */
+
+div.list {
+    text-align: center }
+
+ul { list-style-image: url('images/saturnpoint.png');
+		list-style-position: inside; 
+		text-align: left;
+		display: inline-block ;
+		padding: 1em; }
+		
+
+ol { list-style-position: inside;
+		display: inline-block ; 
+		text-align: left;
+		padding: 1em; }
+		
+.web { font-weight: bold;
+	color: teal; }
+	
+.wrapper { max-width: 70%;
+		margin: auto;
+		padding: 2em; }
+
+footer { font-size: 80%;
+	color: white ; 
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+	padding: 10em ;
+	width: auto;
+	margin: auto; }
+	
+ @media (max-width: 768px) {
+	.hero { flex-direction: column;
+			text-align: center ; }
+	.hero img { width: 250px;
+			margin-bottom: 15px ; }
+	.hero-text { max-width: 100%;
+			text-align: center ; }
+	nav ul { padding: 10px ;
+			text-align: center ; }
+	nav ul li { display: block ;
+			margin-top: 10px ;
+			margin-bottom: 10px ; 
+			margin-left: 0px
+			margin-right: 0px }
+ }
+ @media (max-width: 480px) {
+	.wrapper { padding: 10px ; }
+	
+	.hero img { width: 200px;
+			margin-bottom: 15px ; }
+			
+	.features { grid-template-columns: 1fr ; }
+	
+	nav ul { padding: 5px ; }
+	
+	nav ul li { margin-top: 5px ;
+			margin-bottom: 5px ; 
+			margin-left: 0px;
+			margin-right: 0px; }
+			
+	nav a { font-size: 16px ; }
+ }
+
