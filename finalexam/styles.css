@@ -60,35 +60,16 @@ footer { font-size: 80%;
 	margin: auto; }
 	
  @media (max-width: 768px) {
-	.hero { flex-direction: column;
-			text-align: center ; }
-	.hero img { width: 250px;
-			margin-bottom: 15px ; }
-	.hero-text { max-width: 100%;
-			text-align: center ; }
-	nav ul { padding: 10px ;
-			text-align: center ; }
-	nav ul li { display: block ;
-			margin-top: 10px ;
-			margin-bottom: 10px ; 
-			margin-left: 0px
-			margin-right: 0px }
+
+	.planet-image { width: 20em;
+			margin-bottom: 5% ; }
+
  }
  @media (max-width: 480px) {
-	.wrapper { padding: 10px ; }
+	.wrapper { padding: 5% ; }
 	
-	.hero img { width: 200px;
-			margin-bottom: 15px ; }
-			
-	.features { grid-template-columns: 1fr ; }
-	
-	nav ul { padding: 5px ; }
-	
-	nav ul li { margin-top: 5px ;
-			margin-bottom: 5px ; 
-			margin-left: 0px;
-			margin-right: 0px; }
-			
-	nav a { font-size: 16px ; }
+	.planet-image { width: 20em;
+			margin-bottom: 5% ; }
+
  }
 
